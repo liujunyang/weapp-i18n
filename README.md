@@ -8,6 +8,9 @@
 [vue-i18n](https://github.com/kazupon/vue-i18n) 由于是基于` html` 和 `vue`, 不同于`wxml`（尤其是不能修改dom），估计进行hack调研可能要花很多时间。
 
 ## 方案
+
+本项目是一个可以直接运行的国际化的小程序 quickstart 项目。
+下载后可以直接在 [微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)中运行。
 ### 介绍
 如果想让翻译的内容渲染在页面中，需要把翻译的数据放在 Page 的 data 中，对于动态渲染带可变参数的数据， 在 setData 的时候加个尾巴（在其后面set 带参数的翻译的 data）。
 目前基本方案是自己开发一套翻译工具：
